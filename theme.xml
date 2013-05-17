@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<theme name="The Stun" designer="Peter Bradley" version="1.0" require="4.0">
+ <description>This is a tabloid newspaper theme!</description>
+ <presentation-img src="The_Stun-front.png" name="Front page"/>
+ <presentation-img src="The_Stun-section.png" name="Section page"/>
+ <presentation-img src="The_Stun-article.png" name="Article page"/>
+
+ <output name="Web">
+  <frontPage src="front.tpl"/>
+  <sectionPage src="section.tpl"/>
+  <articlePage src="article.tpl"/>
+  <errorPage src="404.tpl"/>
+ </output>
+
+ <renditions>
+  <rendition name="frontpage-slideshow" width="600" height="337" specs="crop"/>
+  <rendition name="frontpage-slideshow-preview" width="138" height="93" specs="crop"/>
+  <rendition name="teaser-pic" width="150" height="100" specs="crop"/>
+  <rendition name="headline-right" width="460" height="500" specs="crop"/>
+  <rendition name="topfront" width="500" height="333" specs="crop"/>
+  <rendition name="thumb" width="150" height="100" specs="crop"/>
+  <rendition name="sectionthumb" width="250" height="167" specs="crop"/>
+  <rendition name="articlebig" width="600" height="450" specs="crop"/>
+  <rendition name="square" width="150" height="150" specs="crop"/>
+ </renditions>
+</theme>

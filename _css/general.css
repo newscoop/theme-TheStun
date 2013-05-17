@@ -1,0 +1,298 @@
+#wrapper {
+position:relative;
+width:960px;
+margin:0 auto 20px;
+}
+
+/************ MASTHEAD STYLES */
+
+#masthead {
+position:absolute;
+width:460px;
+height:120px;
+top:0;
+left:0;
+background-color:#c00;
+padding:0;
+}
+
+#masthead a {
+color:#fff;
+text-decoration: none;
+text-shadow:2px 2px #000;
+}
+
+#masthead p {
+position:absolute;
+left:10px;
+top:-158px;
+font-size:150px;
+font-family:UtilityBoldCondensed, Helvetica, Arial, sans-serif;
+font-style:italic;
+letter-spacing:4px;
+}
+
+#topimg {
+position:absolute;
+left:492px;
+top:5px;
+width:130px;
+height:125px;
+}
+
+#advert {
+position:absolute;
+left:625px;
+top:-60px;
+color:#bbb;
+text-decoration:none;
+font-family:UtilityBoldCondensed, Helvetica, Arial, sans-serif;
+font-size:60px;
+line-height:90%;
+text-shadow:3px 3px #000;
+margin:5px 10px;
+}
+
+/************ STRAPLINE STYLES */
+
+#strapline {
+position:absolute;
+width:960px;
+height:30px;
+top:120px;
+left:0;
+background-color:#bee2ea;
+}
+
+#strapline p {
+position:absolute;
+top:-12px;
+left:20px;
+font-size:18px;
+font-family:UtilityBoldCondensed, Helvetica, Arial, sans-serif;
+font-style:normal;
+letter-spacing:4px;
+}
+
+/************ NAVIGATION STYLES */
+
+#nav {
+position:absolute;
+top:151px;
+font-family:UtilityBoldCondensed, Helvetica, Arial, sans-serif;
+font-size:20px;
+font-style:italic;
+letter-spacing:4px;
+}
+
+#nav ul {
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+#nav li {
+display:inline;
+}
+
+.navlinks {
+color:#FFF;
+text-decoration:none;
+background-color:#c00;
+border-radius:0 0 15px 15px;
+padding:5px 10px;
+}
+
+a.navlinks:hover {
+background-color:#bbb;
+}
+
+a.current_page_item {
+background-color:#0c0;
+}
+
+/************ FRONT PAGE STYLES  */
+
+#frontpage-headline h1 {
+position:absolute;
+top:130px;
+left:480px;
+font-family: UtilityBoldCondensed, Helvetica, Arial, sans-serif;
+font-size:100px;
+font-weight: normal;
+line-height:90%;
+text-transform: uppercase;
+}
+
+#frontpage-headline a {
+color:#000;
+text-decoration: none;
+}
+
+#frontpage-image img {
+position:absolute;
+left:0px;
+top:150px;
+z-index:-1;
+}
+
+#frontpage-image p#caption {
+position:absolute;
+top:575px;
+left:10px;
+font-family:UtilityBoldCondensed, Helvetica, Arial, sans-serif;
+font-size:32px;
+color:#FFF;
+text-shadow:2px 2px #000;
+}
+
+#frontpage-deck {
+position:absolute;
+top:630px;
+font-family:Helvetica, Arial, sans-serif;
+font-size:24px;
+font-weight:bold;
+line-height:95%;
+margin:10px 0px 10px 0px;
+}
+
+#frontpage-authors {
+position:absolute;
+top:690px;
+font-family:Helvetica, Arial, sans-serif;
+font-size:18px;
+font-weight:bold;
+margin:10px;
+}
+
+#frontpage-authors a {
+color:#000;
+text-decoration: none;
+}
+
+#frontpage-body {
+position:absolute;
+top:730px;
+font-family:Helvetica, Arial, sans-serif;
+font-size:18px;
+}
+
+/************ SECTION STYLES  */
+
+#sectionpage-title h1 {
+position:absolute;
+top:150px;
+left:0px;
+font-family: Helvetica, Arial, sans-serif;
+font-size:60px;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+#sectionpage-items {
+position:absolute;
+top:260px;
+left:0px;
+font-weight:normal;
+}
+
+#sectionpage-items a {
+color:#000;
+text-decoration:none;
+}
+
+#sectionpage-items span.time {
+font-size:16px;
+font-family:Helvetica, Arial, sans-serif;
+}
+
+#sectionpage-items span.header {
+font-size:30px;
+font-family:Helvetica, Arial, sans-serif;
+text-transform:uppercase;
+}
+
+#sectionpage-items span.desc {
+font-size:16px;
+font-family:Helvetica, Arial, sans-serif;
+}
+
+#sectionpage-items img {
+margin-top:0px;
+margin-left:10px;
+margin-bottom:10px;
+float:right;
+}
+
+
+/************ ARTICLE STYLES  */
+
+#article-headline p {
+position:absolute;
+top:135px;
+left:0px;
+font-family: UtilityBoldCondensed, Helvetica, Arial, sans-serif;
+font-size:60px;
+font-weight: normal;
+line-height:90%;
+text-transform: uppercase;
+}
+
+#article-mainimage img {
+position:absolute;
+left:180px;
+top:310px;
+}
+
+#article-mainimage p#caption {
+position:absolute;
+top:640px;
+left:190px;
+font-family:UtilityBoldCondensed, Helvetica, Arial, sans-serif;
+font-size:32px;
+color:#FFF;
+text-shadow:2px 2px #000;
+}
+
+#article-deck {
+position:absolute;
+top:710px;
+left:0px;
+font-family:Helvetica, Arial, sans-serif;
+font-size:18px;
+font-weight:bold;
+margin:10px 0px 10px 0px;
+}
+
+#article-authors {
+position:absolute;
+top:770px;
+font-family:Helvetica, Arial, sans-serif;
+font-size:16px;
+font-weight:bold;
+margin:10px;
+}
+
+#article-authors a {
+color:#000;
+text-decoration: none;
+}
+
+#article-body {
+position:absolute;
+top:830px;
+font-family:Helvetica, Arial, sans-serif;
+font-size:16px;
+}
+
+/************ LIST STYLES  */
+
+ul {
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+li {
+display:inline;
+}
