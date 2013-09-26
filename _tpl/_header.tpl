@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<div id="wrapper">
+ <div id="wrapper">
 
     <div id="masthead">
       <p><a href="/">The Stun!</a></p>

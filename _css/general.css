@@ -78,7 +78,7 @@ letter-spacing:4px;
 
 #nav {
 position:absolute;
-top:151px;
+top:155px;
 font-family:UtilityBoldCondensed, Helvetica, Arial, sans-serif;
 font-size:20px;
 font-style:italic;
@@ -281,6 +281,13 @@ text-decoration: none;
 #article-body {
 position:absolute;
 top:830px;
+font-family:Helvetica, Arial, sans-serif;
+font-size:16px;
+}
+
+#article-debate {
+position:absolute;
+top:310px;
 font-family:Helvetica, Arial, sans-serif;
 font-size:16px;
 }
