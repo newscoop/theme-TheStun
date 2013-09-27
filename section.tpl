@@ -6,7 +6,7 @@
    <h1>{{ $gimme->section->name }}</h1>
 </div>
 
-{{ $articles = array() }}	
+{{ $articles = array() }} 
 
 {{ list_articles length="50" columns="1"}}
 
@@ -17,7 +17,7 @@
   {{ $article['title'] = $gimme->article->title }}
   {{ $article['deck'] = $gimme->article->deck->first_paragraph|strip_tags }}
   {{ $article['url'] = $gimme->article->url }}
-
+  
   {{ image rendition="sectionthumb" }}
     {{ $article['img'] = $image->src }}
     {{ $article['img_alt'] = $image->caption }}
@@ -27,16 +27,16 @@
 
 {{ /list_articles }}
 
-	<div id="sectionpage-items">
+  <div id="sectionpage-items">
 
-	{{ for $i=0 to count($articles) }}
-			{{ $article = $articles[$i] }}
-			{{ if $article != null }}
-				{{ include file='_tpl/_section_teaser.tpl' }}
-			{{ /if }}
-	{{ /for }}
+  {{ for $i=0 to count($articles) }}
+      {{ $article = $articles[$i] }}
+      {{ if $article != null }}
+        {{ include file='_tpl/_section_teaser.tpl' }}
+      {{ /if }}
+  {{ /for }}
 
-	</div>
+  </div>
 
 </div> <!-- end #page_content -->
 
