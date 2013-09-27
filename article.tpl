@@ -1,10 +1,22 @@
 {{ include file='_tpl/_header.tpl' }}
 
-<div id="page_content">
+  <div id="page_content">
 
   <div id="article-headline">
     <p>{{ $gimme->article->name }}</p>
   </div>
+
+{{ if $gimme->article->type_name == "debate" }}
+
+  <div id="article-debate">
+  <h3>PRO: {{ $gimme->article->pro_title }}</h3>
+  <div>{{ $gimme->article->pro_text }}</div>
+
+  <h3>CONTRA: {{ $gimme->article->contra_title }}</h3>
+  <div>{{ $gimme->article->contra_text }}</div>
+  </div>
+
+{{ else }}
 
   <div id="article-mainimage">
     {{ image rendition="articlebig" }}
@@ -39,5 +51,9 @@
   <div id="article-body">
     {{ $gimme->article->full_text }}
   </div>
+
+{{ /if }}
+
+  </div> <!-- end #page_content -->
 
 {{ include file='_tpl/_footer.tpl' }}
