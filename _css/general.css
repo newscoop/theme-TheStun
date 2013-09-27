@@ -1,7 +1,7 @@
 #wrapper {
 position:relative;
 width:960px;
-margin:0 auto 20px;
+margin:0 auto 0 auto;
 }
 
 /************ MASTHEAD STYLES */
@@ -24,12 +24,13 @@ text-shadow:2px 2px #000;
 
 #masthead p {
 position:absolute;
+top:-155px;
 left:10px;
-top:-158px;
 font-size:150px;
 font-family:UtilityBoldCondensed, Helvetica, Arial, sans-serif;
 font-style:italic;
 letter-spacing:4px;
+line-height:150px;
 }
 
 #topimg {
@@ -83,6 +84,7 @@ font-family:UtilityBoldCondensed, Helvetica, Arial, sans-serif;
 font-size:20px;
 font-style:italic;
 letter-spacing:4px;
+line-height:20px;
 }
 
 #nav ul {
