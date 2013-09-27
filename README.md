@@ -17,7 +17,7 @@ How it works
 
 Let's take a look at The Stun's front page template, front.tpl - under 50 lines of code including whitespace, and the biggest block of that code is for creating the list of article authors with the proper punctuation (given that we can't guess how many authors there might be for a dynamically generated article).
 
-This template starts by including _header.tpl from the _tpl folder of sub-templates (there are just three sub-templates in The Stun). Thanks to this sub-template we don't have to deal with the <HEAD> element of HTML, open a <BODY> tag, fiddle with the masthead or deal with navigation buttons. It's all taken care of, so we can focus on front page design.
+This template starts by including _header.tpl from the _tpl folder of sub-templates (there are just three sub-templates in The Stun). Thanks to this sub-template we don't have to deal with the &lt;HEAD&gt; element of HTML, open a &lt;BODY&gt; tag, fiddle with the masthead or deal with navigation buttons. It's all taken care of, so we can focus on front page design.
 
 {{ include file='_tpl/_header.tpl' }}
 
@@ -25,13 +25,13 @@ Next, we'll list articles from the "Front page" featured article playlist, a seq
 
 {{ list_playlist_articles name="Front page" length="1" }}
 
-The next part of the code is for the article headline, which we put in a <div> because we want to style it with CSS. The id of this div should make its function pretty obvious when we are editing the general.css file, found in the _css folder.
+The next part of the code is for the article headline, which we put in a &lt;div&gt; because we want to style it with CSS. The id of this div should make its function pretty obvious when we are editing the general.css file, found in the _css folder.
 
-<div id="frontpage-headline">
-  <a href="{{ uri options="article" }}"><h1>{{ $gimme->article->name }}</h1></a>
-</div>
+&lt;div id="frontpage-headline"&gt;
+  &lt;a href="{{ uri options="article" }}"&gt;&lt;h1&gt;{{ $gimme->article->name }}&lt;/h1&gt;&lt;/a&gt;
+&lt;/div&gt;
 
-See how we're using two sets of curly brackets on the line above? Within the element created by the <h1> and </h1> tags we are asking Newscoop for the article name to create our headline, which could be any line of text the editor wants to put there at that moment. We're also wrapping the <h1> element with an <a> element, but this time we're using the curly brackets to get the URI of this article. So we now have a styled headline, and a link to the article inside the publication.
+See how we're using two sets of curly brackets on the line above? Within the element created by the &lt;h1&gt; and &lt;/h1&gt; tags we are asking Newscoop for the article name to create our headline, which could be any line of text the editor wants to put there at that moment. We're also wrapping the &lt;h1&gt; element with an &lt;a&gt; element, but this time we're using the curly brackets to get the URI of this article. So we now have a styled headline, and a link to the article inside the publication.
 
 Typically we may wish to provide a shortened version of the story on the front page, and give the full article a different design treatment. This is very easy to do in Newscoop since we have a separate template for full articles, by default called article.tpl (although you can call this file anything you want). There is also a template for listing articles in the sections that the editor has created, such as Politics or Sports. The section template is called section.tpl by default, and just as with front.tpl or article.tpl you can re-use the header, footer or any other sub-template that you have created. You'll soon appreciate how much maintenance time is saved by the efficiency of this approach.
 
