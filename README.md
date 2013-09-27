@@ -28,7 +28,9 @@ Next, we'll list articles from the "Front page" featured article playlist, a seq
 The next part of the code is for the article headline, which we put in a &lt;div&gt; because we want to style it with CSS. The id of this div should make its function pretty obvious when we are editing the general.css file, found in the _css folder.
 
 &lt;div id="frontpage-headline"&gt;
+
   &lt;a href="{{ uri options="article" }}"&gt;&lt;h1&gt;{{ $gimme->article->name }}&lt;/h1&gt;&lt;/a&gt;
+
 &lt;/div&gt;
 
 See how we're using two sets of curly brackets on the line above? Within the element created by the &lt;h1&gt; and &lt;/h1&gt; tags we are asking Newscoop for the article name to create our headline, which could be any line of text the editor wants to put there at that moment. We're also wrapping the &lt;h1&gt; element with an &lt;a&gt; element, but this time we're using the curly brackets to get the URI of this article. So we now have a styled headline, and a link to the article inside the publication.
@@ -38,3 +40,8 @@ Typically we may wish to provide a shortened version of the story on the front p
 In The Stun, 404.tpl is an empty file. You can put any message to readers that you want in this template, but with an empty 404 template Newscoop will re-direct all requests for non-existent pages to the publication front page, which may be what you wanted anyway.
 
 We hope you have fun playing with The Stun, and if you create new versions of it, please let us take a look at what you've come up with!
+
+Further reading
+===============
+
+The reference text for creating Newscoop themes is the <a href="http://manuals.sourcefabric.org/">Newscoop Cookbook</a>. If you would like to contribute your tips and tricks to this book, please <a href="http://www.sourcefabric.org/en/about/contactus/">contact Sourcefabric.</a>
