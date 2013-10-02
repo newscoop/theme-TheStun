@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<theme name="The Stun" designer="Peter Bradley" version="1.1" require="4.0">
+<theme name="The Stun" designer="Peter Bradley" version="1.2" require="4.0">
  <description>This is a tabloid newspaper theme!</description>
  <presentation-img src="The_Stun-front.png" name="Front page"/>
  <presentation-img src="The_Stun-section.png" name="Section page"/>
