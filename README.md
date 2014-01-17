@@ -10,7 +10,7 @@ example of how to use a web font from http://www.fontsquirrel.com/ in a Newscoop
 
 Like Newscoop, 'The Stun' theme is &copy; Sourcefabric 2013 and released under the <a href="https://www.gnu.org/licenses/gpl.html">GNU General Public License, version 3</a>.
 
-Please note that the 'Download this repository as a zip file' button on GitHub exports Newscoop theme files within a folder, whereas a working Newscoop theme should have its main template files in the zip file root.
+Please note that the 'Download this repository as a zip file' button on the right side of the GitHub page exports Newscoop theme files within a folder, whereas a working Newscoop theme should have its main template files in the zip file root. You can download a correctly formatted version from the Releases page, for example https://github.com/newscoop/theme-TheStun/releases/download/v1.2/theme-TheStun.zip 
 
 How it works
 ============
