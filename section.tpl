@@ -6,9 +6,9 @@
    <h1>{{ $gimme->section->name }}</h1>
 </div>
 
-{{ $articles = array() }} 
+{{ $articles = array() }}
 
-{{ list_articles length="50" columns="1"}}
+{{ list_articles length="5" columns="1" ignore_issue="true" constraints="type not poll"}}
 
   {{ $article = array() }}
   {{ $article['sub_category'] = $gimme->article->section->name }}
