@@ -35,9 +35,9 @@ line-height:150px;
 
 #topimg {
 position:absolute;
-left:492px;
+left:478px;
 top:5px;
-width:130px;
+width:150px;
 height:125px;
 }
 
@@ -67,12 +67,12 @@ background-color:#bee2ea;
 
 #strapline p {
 position:absolute;
-top:-12px;
-left:20px;
-font-size:18px;
-font-family:UtilityBoldCondensed, Helvetica, Arial, sans-serif;
+top:-4px;
+left:16px;
+font-size:12px;
+font-family:Helvetica, Arial, sans-serif;
 font-style:normal;
-letter-spacing:4px;
+letter-spacing:3px;
 }
 
 /************ NAVIGATION STYLES */

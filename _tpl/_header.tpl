@@ -16,7 +16,7 @@
 
     <div id="masthead">
       <p><a href="/">The Stun!</a></p>
-      <img id="topimg" src="{{ url static_file='_img/lisa-cutout.png' }}">
+      <img id="topimg" src="{{ url static_file='_img/nikola-cutout.png' }}">
     </div>
 
     <div id="advert">
