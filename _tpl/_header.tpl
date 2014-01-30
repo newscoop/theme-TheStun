@@ -24,7 +24,7 @@
     </div>
 
     <div id="strapline">
-      <p>Quality independent tabloid journalism since 2013</p>
+      <p>Quality independent tabloid journalism since 2014</p>
     </div>
 
     <div id="nav">
