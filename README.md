@@ -44,4 +44,4 @@ We hope you have fun playing with The Stun, and if you create new versions of it
 Further reading
 ===============
 
-The reference text for creating Newscoop themes is the <a href="http://manuals.sourcefabric.org/">Newscoop Cookbook</a>. If you would like to contribute your tips and tricks to this book, please <a href="http://www.sourcefabric.org/en/about/contactus/">contact Sourcefabric.</a>
+The reference text for creating Newscoop themes is the <a href="http://sourcefabric.booktype.pro/newscoop-42-cookbook/ready-to-cook/">Newscoop Cookbook</a>. If you would like to contribute your tips and tricks to this book, please <a href="https://www.sourcefabric.org/en/home/contact/">contact Sourcefabric.</a>
